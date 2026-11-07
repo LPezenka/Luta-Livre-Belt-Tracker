@@ -1,0 +1,47 @@
+{
+  "belts": [
+    {
+      "id": "white",
+      "name": "White",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 12
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 18
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 18
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 18
+    },
+    {
+      "id": "purple",
+      "name": "Purple",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 18
+    },
+    {
+      "id": "brown",
+      "name": "Brown",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 18
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "maxStripes": 4,
+      "minMonthsToNextBelt": 0
+    }
+  ],
+  "upcomingEligibilityMonths": 3
+}

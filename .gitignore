@@ -1,0 +1,20 @@
+node_modules/
+dist/
+release/
+.vite/
+coverage/
+
+# Local development artifacts
+*.log
+tmp_*
+electron-smoke.png
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local data snapshots created by manual testing
+data/local/

@@ -1,0 +1,209 @@
+{
+  "sourceName": "Luta Livre Belts - cropped.csv",
+  "importedAt": "2026-11-07T20:20:25.840Z",
+  "monthYear": "11/26",
+  "beltGroups": [
+    {
+      "beltId": "white",
+      "beltName": "White",
+      "startColumn": 2,
+      "width": 3
+    },
+    {
+      "beltId": "yellow",
+      "beltName": "Yellow",
+      "startColumn": 5,
+      "width": 3
+    },
+    {
+      "beltId": "orange",
+      "beltName": "Orange",
+      "startColumn": 8,
+      "width": 3
+    },
+    {
+      "beltId": "blue",
+      "beltName": "Blue",
+      "startColumn": 11,
+      "width": 4
+    },
+    {
+      "beltId": "purple",
+      "beltName": "Purple",
+      "startColumn": 15,
+      "width": 4
+    },
+    {
+      "beltId": "brown",
+      "beltName": "Brown",
+      "startColumn": 19,
+      "width": 4
+    },
+    {
+      "beltId": "black",
+      "beltName": "Black",
+      "startColumn": 23,
+      "width": 4
+    }
+  ],
+  "studentCount": 15,
+  "gradingEventCount": 32,
+  "skippedRows": 0,
+  "mergedNames": [
+    {
+      "name": "Andreas M",
+      "belts": [
+        "orange",
+        "blue"
+      ],
+      "rows": [
+        16,
+        25
+      ]
+    },
+    {
+      "name": "Feliks R",
+      "belts": [
+        "orange",
+        "blue"
+      ],
+      "rows": [
+        18,
+        27
+      ]
+    },
+    {
+      "name": "Damir L",
+      "belts": [
+        "blue",
+        "purple"
+      ],
+      "rows": [
+        21,
+        32
+      ]
+    },
+    {
+      "name": "Johannes G",
+      "belts": [
+        "blue",
+        "purple",
+        "brown"
+      ],
+      "rows": [
+        22,
+        29,
+        34
+      ]
+    },
+    {
+      "name": "Tina Z",
+      "belts": [
+        "blue",
+        "purple"
+      ],
+      "rows": [
+        23,
+        30
+      ]
+    },
+    {
+      "name": "Anton B",
+      "belts": [
+        "blue",
+        "purple"
+      ],
+      "rows": [
+        24,
+        31
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "missing-belt-date",
+      "message": "Row 9 for \"David B\" (Yellow) has no belt-award date. The earliest stripe date 06/26 will be used only as a provisional start; no belt event is invented.",
+      "studentName": "David B",
+      "row": 9
+    },
+    {
+      "severity": "warning",
+      "code": "future-belt-date",
+      "message": "Row 19 for \"Amira N\" (Orange) has a future belt date 07/27.",
+      "studentName": "Amira N",
+      "row": 19
+    },
+    {
+      "severity": "warning",
+      "code": "missing-belt-date",
+      "message": "Row 24 for \"Anton B\" (Blue) has no belt-award date. The earliest stripe date 10/25 will be used only as a provisional start; no belt event is invented.",
+      "studentName": "Anton B",
+      "row": 24
+    },
+    {
+      "severity": "warning",
+      "code": "merged-name",
+      "message": "Name \"Andreas M\" appears on 2 belt rows (Orange, Blue). They were assumed to be the same student. Verify identity.",
+      "studentName": "Andreas M"
+    },
+    {
+      "severity": "warning",
+      "code": "stripe-gap",
+      "message": "Student \"Andreas M\" (Blue) is missing a recorded date for stripe 1. 2 stripes are attributed to the known date 06/26; this is the only non-invented interpretation. Verify manually.",
+      "studentName": "Andreas M",
+      "row": 25
+    },
+    {
+      "severity": "warning",
+      "code": "merged-name",
+      "message": "Name \"Feliks R\" appears on 2 belt rows (Orange, Blue). They were assumed to be the same student. Verify identity.",
+      "studentName": "Feliks R"
+    },
+    {
+      "severity": "warning",
+      "code": "stripe-gap",
+      "message": "Student \"Feliks R\" (Orange) is missing a recorded date for stripe 1. 2 stripes are attributed to the known date 07/26; this is the only non-invented interpretation. Verify manually.",
+      "studentName": "Feliks R",
+      "row": 18
+    },
+    {
+      "severity": "warning",
+      "code": "merged-name",
+      "message": "Name \"Damir L\" appears on 2 belt rows (Blue, Purple). They were assumed to be the same student. Verify identity.",
+      "studentName": "Damir L"
+    },
+    {
+      "severity": "warning",
+      "code": "merged-name",
+      "message": "Name \"Johannes G\" appears on 3 belt rows (Blue, Purple, Brown). They were assumed to be the same student. Verify identity.",
+      "studentName": "Johannes G"
+    },
+    {
+      "severity": "warning",
+      "code": "stripe-gap",
+      "message": "Student \"Johannes G\" (Purple) is missing a recorded date for stripe 1. 2 stripes are attributed to the known date 09/25; this is the only non-invented interpretation. Verify manually.",
+      "studentName": "Johannes G",
+      "row": 29
+    },
+    {
+      "severity": "warning",
+      "code": "merged-name",
+      "message": "Name \"Tina Z\" appears on 2 belt rows (Blue, Purple). They were assumed to be the same student. Verify identity.",
+      "studentName": "Tina Z"
+    },
+    {
+      "severity": "warning",
+      "code": "merged-name",
+      "message": "Name \"Anton B\" appears on 2 belt rows (Blue, Purple). They were assumed to be the same student. Verify identity.",
+      "studentName": "Anton B"
+    },
+    {
+      "severity": "warning",
+      "code": "stripe-gap",
+      "message": "Student \"Anton B\" (Blue) is missing a recorded date for stripe 1. 2 stripes are attributed to the known date 10/25; this is the only non-invented interpretation. Verify manually.",
+      "studentName": "Anton B",
+      "row": 24
+    }
+  ]
+}

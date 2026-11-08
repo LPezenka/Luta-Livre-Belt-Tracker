@@ -3,6 +3,7 @@ dist/
 release/
 .vite/
 coverage/
+docs/
 
 # Local development artifacts
 *.log
